@@ -16,6 +16,7 @@ php8.1 artisan route:cache
 php8.1 artisan storage:link
 chown -R www-data:www-data /usr/share/nginx/html/soft_ui_dashboard_tall_free/ #change here too project repository
 php8.1 artisan up
+# shellcheck disable=SC1090
 source ~/.nvm/nvm.sh
 nvm use 16
 npm install
